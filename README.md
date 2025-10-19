@@ -8,11 +8,7 @@ This challenge is focused on mastering **core DSA concepts** using **C++**, impr
 ## 🎯 **Challenge Goal**
 To consistently practice and understand **Data Structures and Algorithms** every day for **50 days**, strengthening concepts and improving speed, accuracy, and logic building.
 
----
-
-## 🗓️ **Challenge Duration**
-**Start Date:** [Add your start date here]  
-**End Date:** [Add your end date here]  
+--- 
 
 ---
 
@@ -29,7 +25,7 @@ Each day focuses on one core topic, starting from the basics to advanced DSA.
 | Day Range | Topic |
 |------------|--------|
 | 1 – 5 | Arrays & Strings |
-Day 01 : Patterns and Arrays
+|       |Day 01 : Patterns and Arrays
 | 6 – 10 | Searching & Sorting |
 | 11 – 15 | Recursion & Backtracking |
 | 16 – 20 | Linked List |
@@ -42,5 +38,5 @@ Day 01 : Patterns and Arrays
 
 ---
 
-## 📂 **Folder Structure**
+
 
