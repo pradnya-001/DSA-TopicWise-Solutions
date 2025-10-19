@@ -3,9 +3,9 @@
 
 int main() {
      int marks[] = {10, 20, 30, 40, 50};
-     int size = sizeof(marks) ;
-     for(int i = 1 ; i<size;i++){
-        cout << marks[i];
+     int size = sizeof(marks)/ sizeof(int) ;
+     for(int i = 0 ; i<size;i++){
+        cout << marks[i] << endl;
      }
     return 0;
 }
