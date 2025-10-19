@@ -6,9 +6,7 @@ This challenge is focused on mastering **core DSA concepts** using **C++**, impr
 ---
 
 ## 🎯 **Challenge Goal**
-To consistently practice and understand **Data Structures and Algorithms** every day for **50 days**, strengthening concepts and improving speed, accuracy, and logic building.
-
---- 
+To consistently practice and understand **Data Structures and Algorithms** every day for **50 days**, strengthening concepts and improving speed, accuracy, and logic building
 
 ---
 
