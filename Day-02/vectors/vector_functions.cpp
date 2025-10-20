@@ -4,7 +4,12 @@
 
 int main() {
     vector <char> alpha = {'a','b','c','d'};
+    // int size = alpha.size();
+    // cout << "size of vector is:" << size << endl;
+
+    alpha.push_back('e');
     int size = alpha.size();
     cout << "size of vector is:" << size << endl;
+
     return 0;
 }
