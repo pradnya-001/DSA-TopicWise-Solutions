@@ -24,6 +24,7 @@ Each day focuses on one core topic, starting from the basics to advanced DSA.
 |------------|--------|
 | 1 – 5 | Arrays & Strings |
 |       |Day 01 : Patterns and Arrays
+|       |Day 02 : vectors/operations on it
 | 6 – 10 | Searching & Sorting |
 | 11 – 15 | Recursion & Backtracking |
 | 16 – 20 | Linked List |
