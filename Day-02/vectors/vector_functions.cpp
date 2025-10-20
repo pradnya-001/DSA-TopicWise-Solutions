@@ -7,9 +7,18 @@ int main() {
     // int size = alpha.size();
     // cout << "size of vector is:" << size << endl;
 
+    //Insertion in the vector
     alpha.push_back('e');
+    //deleting the vector element
+    alpha.pop_back();
+    //calculating the size of the vector
     int size = alpha.size();
     cout << "size of vector is:" << size << endl;
+
+    for(char val :alpha){
+        cout << val << endl;
+    }
+
 
     return 0;
 }
