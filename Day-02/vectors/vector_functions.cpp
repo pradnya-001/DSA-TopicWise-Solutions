@@ -19,6 +19,7 @@ int main() {
         cout << val << endl;
     }
 
+      cout << "first element of the vector:" << alpha.front() << endl;
 
     return 0;
 }
