@@ -20,6 +20,8 @@ int main() {
     }
 
       cout << "first element of the vector:" << alpha.front() << endl;
+      cout << "last element of the vector:" << alpha.back() << endl;
+      cout << "element at index 2 :" << alpha.at(2) << endl;
 
     return 0;
 }
