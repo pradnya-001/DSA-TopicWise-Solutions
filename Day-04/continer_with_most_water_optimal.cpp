@@ -13,13 +13,6 @@ public:
               int currWater = wt * ht;
     
               maxWater = max(maxWater, currWater);
-    
-            //   if(height[lp] < height[rp]){
-            //     lp++;
-            //   }
-            //   else{
-            //     rp--;
-            //   }
             height[lp] < height[rp] ? lp++ : rp--;
        }
        return maxWater;
