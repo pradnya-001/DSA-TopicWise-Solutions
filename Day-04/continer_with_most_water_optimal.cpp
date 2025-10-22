@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -13,13 +14,13 @@ public:
     
               maxWater = max(maxWater, currWater);
     
-            //   if(height[lp] < height[rp]){
-            //     lp++;
-            //   }
-            //   else{
-            //     rp--;
-            //   }
-            height[lp] < height[rp] ? lp++ : rp--;
+              if(height[lp] < height[rp]){
+                lp++;
+              }
+              else{
+                rp--;
+              }
+            // height[lp] < height[rp] ? lp++ : rp--;
        }
        return maxWater;
     }
