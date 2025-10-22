@@ -7,9 +7,9 @@ public:
         int maxWater = 0;
         for (int i = 0; i < height.size(); i++) {
             for (int j = i + 1; j < height.size(); j++) {
-                int wt = j - i; // width between the two lines
-                int ht = min(height[i], height[j]); // height of the smaller line
-                int currWater = wt * ht; // area = width * height
+                int wt = j - i;
+                int ht = min(height[i], height[j]); 
+                int currWater = wt * ht; 
 
                 maxWater = max(maxWater, currWater);
             }
