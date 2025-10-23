@@ -2,13 +2,15 @@
 #include <vector>
 using namespace std;
 
+// Brute-force approach to find the product of array except self
+//time complexity: O(n^2)
+
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int n = nums.size();
         vector<int> ans(n, 1);
 
-        // For each element, multiply all other elements
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (i != j) {
