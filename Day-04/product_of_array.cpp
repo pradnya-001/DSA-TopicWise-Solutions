@@ -4,6 +4,7 @@ using namespace std;
 
 // Brute-force approach to find the product of array except self
 //time complexity: O(n^2)
+//space complexity: O(1) excluding the output array
 
 class Solution {
 public:
