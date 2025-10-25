@@ -29,7 +29,6 @@ public:
 };
 
 int main() {
-    // Example to test the function
     vector<int> nums = {1, 2, 3, 4};
     Solution sol;
     vector<int> result = sol.productExceptSelf(nums);
