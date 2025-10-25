@@ -6,12 +6,12 @@ public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int n = nums.size();
         vector<int> ans(n, 1);
-        vector<int> preffix(n, 1);
+        vector<int> prefix(n, 1);
         vector<int> suffix(n, 1);
 
         // Build prefix array
         for(int i = 1; i < n; i++){
-            preffix[i] = preffix[i - 1] * nums[i - 1];
+            prefix[i] = prefix[i - 1] * nums[i - 1];
         }
 
         // Build suffix array
@@ -21,7 +21,7 @@ public:
 
         // Final answer using prefix and suffix
         for(int i = 0; i < n; i++){
-            ans[i] = preffix[i] * suffix[i];
+            ans[i] = prefix[i] * suffix[i];
         }
 
         return ans;
