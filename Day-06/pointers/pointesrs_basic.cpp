@@ -7,5 +7,12 @@ int main() {
    cout << &a << endl;  // prints the address of variable a
    cout << ptr << endl; // prints the address stored in pointer variable ptr
    cout << &ptr << endl; 
+
+
+   float price = 2.3456;
+   float* p = &price;
+   cout << "Address of price: " << &price << endl;
+   cout << "Address stored in pointer p: " << p << endl;
+   cout << "Address of pointer p: " << &p << endl;
     return 0;
 }
