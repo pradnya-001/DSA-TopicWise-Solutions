@@ -31,7 +31,7 @@ int main() {
 
 
     // NULL Pointer
-    int **ptr;
+    int **ptr = NULL;
     cout << ptr << endl;
    
     return 0;
