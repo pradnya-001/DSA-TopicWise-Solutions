@@ -22,10 +22,12 @@ int main() {
 
 
 //Dereferencing operator (*)
-    int a = 10;
+    int a = 100;
     int* p = &a;
-    cout << *(p) << endl;
-    cout << *(&a) << endl; // dereferencing the address of a
+    int** p2 = &p;
+    // cout << *(p) << endl;
+    // cout << *(&a) << endl; // dereferencing the address of a
+    cout << **(p2) << endl; // dereferencing pointer to pointer
 
    
     return 0;
