@@ -2,6 +2,7 @@
  using namespace std;
 
 int main() {
-    std::cout << "" << std::endl;
+   int a=10;
+   cout << &a << endl;  // prints the address of variable a
     return 0;
 }
