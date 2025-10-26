@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
- void change(int* ptr){
+ void change(int* ptr){ //Pass By Reference
     *ptr = 20;
  }
 
