@@ -14,5 +14,11 @@ int main() {
    cout << "Address of price: " << &price << endl;
    cout << "Address stored in pointer p: " << p << endl;
    cout << "Address of pointer p: " << &p << endl;
+
+
+   //pointer to pointer concept
+    float** p2 = &p;
+    cout << "Address at pointer p2: " << p2 << endl;
+   
     return 0;
 }
