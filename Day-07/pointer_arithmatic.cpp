@@ -9,5 +9,9 @@ int main() {
     cout << ptr << endl;
     ptr--;
     cout << ptr << endl;
+
+    //Add and Sub
+    ptr = ptr + 2;
+    cout << ptr << endl;
     return 0;
 }
