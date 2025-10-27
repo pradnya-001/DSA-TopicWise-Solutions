@@ -21,5 +21,6 @@ int main() {
     int* ptr1 = ptr2 + 2; //108
     cout << ptr1 - ptr2 << endl;
 
+    // we can compare the two pointers
     return 0;
 }
