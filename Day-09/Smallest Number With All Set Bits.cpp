@@ -19,7 +19,7 @@ int main() {
     cin >> n;
 
     int result = sol.smallestNumber(n);
-    cout << "Smallest number >= " << n << " such that x & (x+1) == 0 : " << result << endl;
+    cout << "Smallest number = " << n << " such that x & (x+1) == 0 : " << result << endl;
 
     return 0;
 }
