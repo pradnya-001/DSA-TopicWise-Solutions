@@ -15,7 +15,7 @@ public:
 int main() {
     Solution sol;
     int n;
-    cout << "Enter a number ";
+    cout << "Enter a number : ";
     cin >> n;
 
     int result = sol.smallestNumber(n);
