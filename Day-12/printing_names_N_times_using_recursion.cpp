@@ -1,22 +1,21 @@
 #include <iostream>
  using namespace std;
- void printNameNTimes(int n) {
+
+ void printNameNTimes( int i , int n) {
     // Base Condition
-    if (n <= 0) {
+    if (i > n) {
         return;
     }
-
     // Print the name
+    printNameNTimes(i+1, n);
     cout << "Pradnya" << endl;
-
     // Recursive Call
-    printNameNTimes(n - 1);
  }
 
 
 int main() {
     int n;
     cin >> n;
-    printNameNTimes(n);
+    printNameNTimes( 1 , n);
     return 0;
 }
