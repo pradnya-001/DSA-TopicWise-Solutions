@@ -11,9 +11,9 @@ void count(int cnt) {
     }
 
     // Recursive Step:
-    count(cnt + 1); 
     cout << cnt << " "; // 1. Print the current number
-
+    
+    count(cnt + 1); 
     // Increment the counter for the next function call
     // The incremented value is passed to the next recursive call.
 
