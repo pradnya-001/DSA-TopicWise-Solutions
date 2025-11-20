@@ -6,7 +6,7 @@ using namespace std;
 // Program to print the series of numbers from 0 to 10 using recursion.
 void count(int cnt) {
     // Base Condition: Stop when cnt is greater than 10 (i.e., stop after printing 10).
-    if (cnt > 100) {
+    if (cnt > 10) {
         return; 
     }
 
