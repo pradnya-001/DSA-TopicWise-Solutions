@@ -6,7 +6,7 @@ public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
         int cnt[101] = {0};
 
-        // Count occurrences
+       
         for (int x : nums) cnt[x]++;
 
         // Prefix sum to know how many are smaller
@@ -37,7 +37,7 @@ int main() {
     vector<int> result = obj.smallerNumbersThanCurrent(nums);
 
     cout << "Result: ";
-    for (int x : result) cout << x << " ";
+    for (int x : result) cout << x << "   ";
     cout << endl;
 
     return 0;
